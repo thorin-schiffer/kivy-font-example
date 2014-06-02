@@ -1,0 +1,204 @@
+<Label>:  
+    font_name: 'RobotoCondensed'
+<Phone>:
+    AnchorLayout:
+        #anchor_x: 'center'
+        #anchor_y: 'top'
+        ScreenManager:
+            size_hint: 1, .9
+            id: _screen_manager
+            Screen:
+                name: 'screen1'
+                Image:
+                    source: 'bg.jpg'
+                    allow_stretch: True
+                    keep_ratio: False
+                    pos: 200,300
+                Label: 
+                    size_hint:  1, 1.85
+                    markup: True
+                    text: '[size=45][font=DroidSans][b][color=00BFFF]ALBANIAN LANGUAGE APPLICATION[/color][/b][/font][/size]'
+                Label: 
+                    size_hint: 1, 1.5
+                    markup: True
+                    text: '[size=24]Designed for everyone[/size]'   
+                Label: 
+                    size_hint: 1, .65
+                    markup: True
+                    text: '[size=24][i]This is Andias Thesis Project[/i][/size]'    
+                Label: 
+                    size_hint: 1, .55
+                    markup: True
+                    text: '[size=22]Epoka University - Departent of Computer Engineering[/size]'            
+            Screen:
+                name: 'screen2'
+                GridLayout: 
+                    cols: 6
+                    padding: 60
+                    Button:
+                        text: "A a"
+                    Button:
+                        text: "B b"
+                    Button:
+                        text: "C c"
+                    Button:
+                        text: "Ch ch"
+                    Button:
+                        text: "D d"
+                    Button:
+                        text: "D dh"
+                    Button:
+                        text: "E e"
+                    Button:
+                        text: "E: e: "
+                    Button:
+                        text: "F f"
+                    Button:
+                        text: "G g "
+                    Button:
+                        text: "Gj gj"
+                    Button:
+                        text: "H h"
+                    Button:
+                        text: "I i"
+                    Button:
+                        text: "J j"
+                    Button:
+                        text: "K k"
+                    Button:
+                        text: "L l"
+                    Button:
+                        text: "Ll ll "
+                    Button:
+                        text: "M m"
+                    Button:
+                        text: "N n"
+                    Button:
+                        text: "Nj nj"
+                    Button:
+                        text: "O o"
+                    Button:
+                        text: "P p "
+                    Button:
+                        text: "Q q"
+                    Button:
+                        text: "R r"
+                    Button:
+                        text: "Rr rr"
+                    Button:
+                        text: "S s"
+                    Button:
+                        text: "Sh sh"
+                    Button:
+                        text: "T t"
+                    Button:
+                        text: "Th th"
+                    Button:
+                        text: "U u"
+                    Button:
+                        text: "V v"
+                    Button:
+                        text: "X x"
+                    Button:
+                        text: "Xh xh"
+                    Button:
+                        text: "Y y"
+                    Button:
+                        text: "Z z "
+                    Button:
+                        text: "Zh zh "  
+                        Label: 
+                            size_hint: 1, 1.9
+                            markup: True
+                            text: '[size=18][i]In Albanian - there are 36 letters . Some of them are also double letters[/i][/size]'        
+                        Label: 
+                            size_hint: 1, 1.85
+                            markup: True
+                            text: '[size=18][i]When writing words - they are written just as pronounced[/i][/size]'
+            Screen:
+                name: 'screen3'
+                Label: 
+                    markup: True
+                    #text: '[size=24]fjalet e para ??? [color=dd88ff]THE APP[/color][/size]'        
+                Label: 
+                    size_hint: 1, 1.8
+                    markup: True
+                    text: '[anchor=title1][size=16]This is my Big title.actually, it is a very long sentence which describes what this section does[/size]' 
+                Image:
+                    source: 'foto1.jpg'
+                    allow_stretch: False
+                    keep_ratio: False
+                    pos: 200,150
+                Image:
+                    source: 'foto1.jpg'
+                    allow_stretch: False
+                    keep_ratio: False
+                    pos: 200,0
+                Image:
+                    source: 'foto1.jpg'
+                    allow_stretch: False
+                    keep_ratio: False
+                    pos: 200, -100
+                Image:
+                    source: 'foto1.jpg'
+                    allow_stretch: False
+                    keep_ratio: False
+                    pos: 200,-150
+                Image:
+                    source: 'foto1.jpg'
+                    allow_stretch: False
+                    keep_ratio: False
+                    pos: -100,-150
+                Label: 
+                    size_hint: 1, 1.71
+                    markup: True
+                    text: '[anchor=title1][size=16] it is another  very long sentence which describes what this section does even a little longer than usual[/size]'        
+                Label: 
+                    size_hint: .3, 1.5                                      
+                    markup: True
+                    text: '[anchor=title1][size=16]This is my Big title.actually[/size]'    
+                Label: 
+                    size_hint: 1.7, 1.5                                     
+                    markup: True
+                    text: '[anchor=title1][size=16]This is the translation[/size]'  
+            Screen:
+                name: 'screen4'
+                Label: 
+                    markup: True
+                    text: '[size=24]Welcome 2222 [color=dd88ff]THE APP[/color][/size]'
+            Screen:
+                name: 'screen6'
+                Image:
+                    pos: 0,0
+                    source: 'cats.jpg'
+                    allow_strech: True
+                    keep_ratio: True
+                Label: 
+                    size_hint: 1, 1.9
+                    markup: True
+                    text: '[size=18][i]So - you like it or not - you have to learn some grammar - And learn it properly! [/i][/size]'       
+                Label: 
+                    size_hint: 1., 1.8
+                    markup: True
+                    text: '[anchor=title1][size=16]It might help you during an argument. If you are loosing - start correcting their Grammar[/size]'        
+    AnchorLayout:
+        anchor_x: 'center'
+        anchor_y: 'bottom'
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: 1, .1
+            Button:
+                text: 'Pershendetje!'
+                on_press: _screen_manager.current = 'screen1'
+            Button:
+                text: 'Alfabeti'
+                on_press: _screen_manager.current = 'screen2'
+            Button:
+                text: 'Fjalet e para'
+                on_press: _screen_manager.current = 'screen3'
+            Button:
+                text: 'Fjale te tjera'
+                on_press: _screen_manager.current = 'screen4'           
+            Button:
+                text: 'Heil Grammatik!'
+                on_press: _screen_manager.current = 'screen6' 
